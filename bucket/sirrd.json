@@ -8,11 +8,6 @@
       "url": "https://github.com/SirrVault/sirrd/releases/download/v0.1.0/sirrd-windows-x64.zip",
       "hash": "PLACEHOLDER_WIN_X64_SHA256",
       "bin": "sirrd.exe"
-    },
-    "arm64": {
-      "url": "https://github.com/SirrVault/sirrd/releases/download/v0.1.0/sirrd-windows-arm64.zip",
-      "hash": "PLACEHOLDER_WIN_ARM64_SHA256",
-      "bin": "sirrd.exe"
     }
   },
   "checkver": {
@@ -22,9 +17,6 @@
     "architecture": {
       "64bit": {
         "url": "https://github.com/SirrVault/sirrd/releases/download/v$version/sirrd-windows-x64.zip"
-      },
-      "arm64": {
-        "url": "https://github.com/SirrVault/sirrd/releases/download/v$version/sirrd-windows-arm64.zip"
       }
     }
   }
