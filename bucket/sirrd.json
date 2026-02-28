@@ -1,12 +1,12 @@
 {
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "Sirr daemon \u2014 self-hosted ephemeral secret vault server",
   "homepage": "https://github.com/SirrVault/sirrd",
   "license": "BSL-1.1",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/SirrVault/sirrd/releases/download/v1.0.12/sirrd-windows-x64.zip",
-      "hash": "d066d3009fac47e120c41fbeb6e1f1d826e906440613494b934563112fe9fce2",
+      "url": "https://github.com/SirrVault/sirrd/releases/download/v1.0.13/sirrd-windows-x64.zip",
+      "hash": "65bd98f255754d828ac7629c6c2ebf4e03c21cbbd98c81c4249f92cc52b4f228",
       "bin": "sirrd.exe"
     }
   },
