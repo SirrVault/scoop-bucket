@@ -1,30 +1,30 @@
 {
   "version": "1.0.23",
   "description": "CLI client for Sirr \u2014 push, get, and manage ephemeral secrets",
-  "homepage": "https://github.com/SirrVault/sirr",
+  "homepage": "https://github.com/sirrlock/sirr",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/SirrVault/sirr/releases/download/v1.0.23/sirr-windows-x64.zip",
+      "url": "https://github.com/sirrlock/sirr/releases/download/v1.0.23/sirr-windows-x64.zip",
       "hash": "e4c7c269f847e6275af999737256a317bb5d3e88f1b47845485ef20d5ba3712c",
       "bin": "sirr.exe"
     },
     "arm64": {
-      "url": "https://github.com/SirrVault/sirr/releases/download/v1.0.23/sirr-windows-arm64.zip",
+      "url": "https://github.com/sirrlock/sirr/releases/download/v1.0.23/sirr-windows-arm64.zip",
       "hash": "bcbebf48c29f33b212d5e9be60f5acd547cad348f9061ae2444a13442af46a5d",
       "bin": "sirr.exe"
     }
   },
   "checkver": {
-    "github": "https://github.com/SirrVault/sirr"
+    "github": "https://github.com/sirrlock/sirr"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/SirrVault/sirr/releases/download/v$version/sirr-windows-x64.zip"
+        "url": "https://github.com/sirrlock/sirr/releases/download/v$version/sirr-windows-x64.zip"
       },
       "arm64": {
-        "url": "https://github.com/SirrVault/sirr/releases/download/v$version/sirr-windows-arm64.zip"
+        "url": "https://github.com/sirrlock/sirr/releases/download/v$version/sirr-windows-arm64.zip"
       }
     }
   }
